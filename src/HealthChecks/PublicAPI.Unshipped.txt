@@ -1,0 +1,47 @@
+﻿Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthCheck
+Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthCheck.Duration.get -> System.TimeSpan?
+Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthCheck.Duration.init -> void
+Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthCheck.HealthCheck() -> void
+Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthCheck.HealthCheck(Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthCheck! original) -> void
+Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthCheck.Services.get -> System.Collections.Generic.IDictionary<string!, Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthEntry!>!
+Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthCheck.Services.init -> void
+Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthCheck.Status.get -> string?
+Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthCheck.Status.init -> void
+Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthEntry
+Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthEntry.Duration.get -> System.TimeSpan?
+Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthEntry.Duration.init -> void
+Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthEntry.HealthEntry() -> void
+Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthEntry.HealthEntry(Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthEntry! original) -> void
+Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthEntry.Status.get -> string?
+Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthEntry.Status.init -> void
+Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.IHealthCheckResponseWriter
+Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.IHealthCheckResponseWriter.WriteAsync(Microsoft.AspNetCore.Http.HttpContext! httpContext, Microsoft.Extensions.Diagnostics.HealthChecks.HealthReport! healthReport) -> System.Threading.Tasks.Task!
+Escendit.AspNetCore.Diagnostics.HealthChecks.MinimalHealthCheck
+Escendit.AspNetCore.Diagnostics.HealthChecks.MinimalHealthCheck.CheckHealthAsync(Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckContext! context, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> System.Threading.Tasks.Task<Microsoft.Extensions.Diagnostics.HealthChecks.HealthCheckResult>!
+Escendit.AspNetCore.Diagnostics.HealthChecks.MinimalHealthCheck.MinimalHealthCheck() -> void
+Escendit.AspNetCore.Diagnostics.HealthChecks.WebApplicationBuilderExtensions
+Escendit.AspNetCore.Diagnostics.HealthChecks.WebApplicationBuilderExtensions.extension(Microsoft.AspNetCore.Builder.WebApplicationBuilder!)
+Escendit.AspNetCore.Diagnostics.HealthChecks.WebApplicationBuilderExtensions.extension(Microsoft.AspNetCore.Builder.WebApplicationBuilder!).AddHealthCheckDefaults(System.Action<Microsoft.Extensions.DependencyInjection.IHealthChecksBuilder!>? configure = null) -> Microsoft.AspNetCore.Builder.WebApplicationBuilder!
+Escendit.AspNetCore.Diagnostics.HealthChecks.WebApplicationExtensions
+Escendit.AspNetCore.Diagnostics.HealthChecks.WebApplicationExtensions.extension(Microsoft.AspNetCore.Builder.WebApplication!)
+Escendit.AspNetCore.Diagnostics.HealthChecks.WebApplicationExtensions.extension(Microsoft.AspNetCore.Builder.WebApplication!).UseHealthCheckDefaults() -> Microsoft.AspNetCore.Builder.WebApplication!
+override Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthCheck.Equals(object? obj) -> bool
+override Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthCheck.GetHashCode() -> int
+override Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthCheck.ToString() -> string!
+override Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthEntry.Equals(object? obj) -> bool
+override Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthEntry.GetHashCode() -> int
+override Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthEntry.ToString() -> string!
+static Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthCheck.operator !=(Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthCheck? left, Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthCheck? right) -> bool
+static Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthCheck.operator ==(Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthCheck? left, Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthCheck? right) -> bool
+static Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthEntry.operator !=(Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthEntry? left, Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthEntry? right) -> bool
+static Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthEntry.operator ==(Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthEntry? left, Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthEntry? right) -> bool
+static Escendit.AspNetCore.Diagnostics.HealthChecks.WebApplicationBuilderExtensions.AddHealthCheckDefaults(this Microsoft.AspNetCore.Builder.WebApplicationBuilder! builder, System.Action<Microsoft.Extensions.DependencyInjection.IHealthChecksBuilder!>? configure = null) -> Microsoft.AspNetCore.Builder.WebApplicationBuilder!
+static Escendit.AspNetCore.Diagnostics.HealthChecks.WebApplicationExtensions.UseHealthCheckDefaults(this Microsoft.AspNetCore.Builder.WebApplication! app) -> Microsoft.AspNetCore.Builder.WebApplication!
+virtual Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthCheck.<Clone>$() -> Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthCheck!
+virtual Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthCheck.EqualityContract.get -> System.Type!
+virtual Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthCheck.Equals(Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthCheck? other) -> bool
+virtual Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthCheck.PrintMembers(System.Text.StringBuilder! builder) -> bool
+virtual Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthEntry.<Clone>$() -> Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthEntry!
+virtual Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthEntry.EqualityContract.get -> System.Type!
+virtual Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthEntry.Equals(Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthEntry? other) -> bool
+virtual Escendit.AspNetCore.Diagnostics.HealthChecks.Abstractions.HealthEntry.PrintMembers(System.Text.StringBuilder! builder) -> bool

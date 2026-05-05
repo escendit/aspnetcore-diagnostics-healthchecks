@@ -2,7 +2,7 @@
   <Folder Name="/docs/" />
   <Folder Name="/eng/" />
   <Folder Name="/src/">
-
+    <Project Path="src\HealthChecks\Escendit.AspNetCore.Diagnostics.HealthChecks.csproj" />
   </Folder>
   <Folder Name="/test/" />
 </Solution>
