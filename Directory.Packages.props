@@ -49,7 +49,7 @@
     <PackageVersion Include="Microsoft.Extensions.Options" Version="9.0.8" />
     <PackageVersion Include="Microsoft.Extensions.ServiceDiscovery" Version="10.5.0" />
     <PackageVersion Include="Microsoft.IdentityModel.Protocols.OpenIdConnect" Version="8.13.0" />
-    <PackageVersion Include="Microsoft.Kiota.Abstractions" Version="1.17.2" />
+    <PackageVersion Include="Microsoft.Kiota.Abstractions" Version="1.22.2" />
     <PackageVersion Include="Microsoft.Kiota.Bundle" Version="1.17.2" />
     <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.13.0" />
     <PackageVersion Include="Microsoft.Orleans.Client" Version="10.1.0" />
